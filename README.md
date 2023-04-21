@@ -2,7 +2,7 @@ Node-Weather-Website is a dynamic web application that provides users with up-to
 
 To ensure accurate and reliable weather data, Node Weather Website also utilizes geocoding through the Mapbox API to convert location input into geographic coordinates. This allows the application to provide weather information for any location entered by the user, regardless of whether it is a city, state, or specific address.
 
-To create the user interface, Node Weather Website uses the hbs library, a popular templating engine that allows for dynamic rendering of HTML pages. The request library is also utilized to make HTTP requests to the Weatherstack and Mapbox APIs, enabling seamless communication between the application and external data sources.
+To create the user interface, Node Weather Website uses Bootstrap, a popular front-end development framework that allows for the creation of responsive and visually appealing web pages. The hbs library, a popular templating engine that allows for dynamic rendering of HTML pages. The request library is also utilized to make HTTP requests to the Weatherstack and Mapbox APIs, enabling seamless communication between the application and external data sources.
 
 Designed with simplicity and ease-of-use in mind, the Node Weather Website features a clean and intuitive interface that allows users to quickly find the weather information they need. With the ability to search for weather data by location or zip code, this application is perfect for travelers, outdoor enthusiasts, or anyone who wants to stay informed about current weather conditions.
 
