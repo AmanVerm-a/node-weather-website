@@ -3,7 +3,6 @@ const search = document.querySelector('input');
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 const messageThree = document.querySelector('#message-3')
-const messageFour = document.querySelector('#message-4')
 
 weatherForm.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -18,9 +17,8 @@ weatherForm.addEventListener('submit', (e) => {
         
       } else {
         messageOne.textContent = `Location: ${data.location}`
-        messageTwo.textContent = `Current-Time is: ${data.forecast.currentTime}, Forecast was last updated on: ${data.forecast.lastUpdated}`
-        messageThree.textContent = `Forecast: ${data.forecast.condition}, Current-Temperature: ${data.forecast.tempCurrent} degree celsius.\nFeels like: ${data.forecast.feelLike} degree celsius.`
-        messageFour.textContent = `Max-Temperature: ${data.forecast.tempMax} degree celsius.\nMin-Temperature: ${data.forecast.tempMin} degree celsius.\nChances of rain: ${data.forecast.rainChance}%.\nHumidity: ${data.forecast.humidity}%.`
+        messageTwo.innerHTML = `Current-Time is: ${data.forecast.currentTime}<br>Forecast was last updated on: ${data.forecast.lastUpdated}`
+        messageThree.innerHTML = `Forecast:-<br>Weather-Condition: ${data.forecast.condition}.<br>Current-Temperature: ${data.forecast.tempCurrent} degree celsius.<br>Feels like: ${data.forecast.feelLike} degree celsius.<br>Max-Temperature: ${data.forecast.tempMax} degree celsius.<br>Min-Temperature: ${data.forecast.tempMin} degree celsius.<br>Chances of rain: ${data.forecast.rainChance}%.<br>Humidity: ${data.forecast.humidity}%.`
       }
     })
   })
