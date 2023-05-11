@@ -1,4 +1,4 @@
-Node-Weather-Website is a dynamic web application that provides users with up-to-date weather information for any location around the world. Developed using Node.js and Express.js, this project integrates data from the Weatherstack API to display current weather conditions, temperature, humidity, and other weather-related metrics in a visually appealing and user-friendly format.
+Node-Weather-Website is a dynamic web application that provides users with up-to-date weather information for any location around the world. Developed using Node.js and Express.js, this project integrates data from the WeatherAPI to display current weather conditions, temperature, humidity, and other weather-related metrics in a visually appealing and user-friendly format.
 
 To ensure accurate and reliable weather data, Node Weather Website also utilizes geocoding through the Mapbox API to convert location input into geographic coordinates. This allows the application to provide weather information for any location entered by the user, regardless of whether it is a city, state, or specific address.
 
